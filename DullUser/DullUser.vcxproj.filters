@@ -1,0 +1,120 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Core">
+      <UniqueIdentifier>{bc5f90d0-887e-4350-b2b4-de0fe8ac0ed8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MMap">
+      <UniqueIdentifier>{529dea5b-3ef0-4860-85d3-a362126c18de}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Utils">
+      <UniqueIdentifier>{db968c8e-33cc-4913-bb2a-daa3bcc9f194}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MMap\User">
+      <UniqueIdentifier>{f612f349-b65a-46e6-855b-e8b0c68db862}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MMap\Kernel">
+      <UniqueIdentifier>{9dbbb442-d381-49b6-9276-c539c24123f9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Protect">
+      <UniqueIdentifier>{645838f4-8bb8-463f-81e2-32c233339fe3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Communication">
+      <UniqueIdentifier>{10509106-01d9-42a9-9f15-f4aa30b87141}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MMap\Kernel\VDM">
+      <UniqueIdentifier>{4ccf90c9-9f92-4ded-96e8-136d3f38ca80}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MMap\Kernel\Utils">
+      <UniqueIdentifier>{4bbb631b-ab21-47d8-9136-d4c54182d825}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MMap\Kernel\Resource">
+      <UniqueIdentifier>{d609ab49-66ad-48da-85aa-3fd385c6c77f}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="xor.hpp">
+      <Filter>Protect</Filter>
+    </ClInclude>
+    <ClInclude Include="DriverMapper.hpp">
+      <Filter>MMap\Kernel</Filter>
+    </ClInclude>
+    <ClInclude Include="Loader.hpp">
+      <Filter>Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Communication.hpp">
+      <Filter>Communication</Filter>
+    </ClInclude>
+    <ClInclude Include="Operation.hpp">
+      <Filter>Communication</Filter>
+    </ClInclude>
+    <ClInclude Include="TraceCleaner.hpp">
+      <Filter>MMap\Kernel\VDM</Filter>
+    </ClInclude>
+    <ClInclude Include="VDM.hpp">
+      <Filter>MMap\Kernel\VDM</Filter>
+    </ClInclude>
+    <ClInclude Include="VDM_MAP.hpp">
+      <Filter>MMap\Kernel\VDM</Filter>
+    </ClInclude>
+    <ClInclude Include="LoadUp.hpp">
+      <Filter>MMap\Kernel\Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="NtStruct.hpp">
+      <Filter>MMap\Kernel\Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="Vulnerable.hpp">
+      <Filter>MMap\Kernel\Resource</Filter>
+    </ClInclude>
+    <ClInclude Include="Kernel.hpp">
+      <Filter>MMap\Kernel\Resource</Filter>
+    </ClInclude>
+    <ClInclude Include="PEHelper.hpp">
+      <Filter>MMap\Kernel\Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="MemoryUtils.hpp">
+      <Filter>Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="ProcessUtils.hpp">
+      <Filter>Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="ModuleMapper.hpp">
+      <Filter>MMap\User</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="DriverMapper.cpp">
+      <Filter>MMap\Kernel</Filter>
+    </ClCompile>
+    <ClCompile Include="Loader.cpp">
+      <Filter>Core</Filter>
+    </ClCompile>
+    <ClCompile Include="Communication.cpp">
+      <Filter>Communication</Filter>
+    </ClCompile>
+    <ClCompile Include="TraceCleaner.cpp">
+      <Filter>MMap\Kernel\VDM</Filter>
+    </ClCompile>
+    <ClCompile Include="VDM.cpp">
+      <Filter>MMap\Kernel\VDM</Filter>
+    </ClCompile>
+    <ClCompile Include="VDM_MAP.cpp">
+      <Filter>MMap\Kernel\VDM</Filter>
+    </ClCompile>
+    <ClCompile Include="LoadUp.cpp">
+      <Filter>MMap\Kernel\Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="PEHelper.cpp">
+      <Filter>MMap\Kernel\Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="MemoryUtils.cpp">
+      <Filter>Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="ProcessUtils.cpp">
+      <Filter>Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="ModuleMapper.cpp">
+      <Filter>MMap\User</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
